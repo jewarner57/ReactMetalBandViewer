@@ -1,11 +1,10 @@
-import data from '../metal.json'
 import './BandsInfo.css'
 
-function BandsInfo() {
+function BandsInfo(props) {
     return (
         <div className="BandsInfo">
             <h1>Metal Bands 🤘</h1>
-            <h1>Bands: {data.length}</h1>
+            <h1>Bands: {props.data.length}</h1>
         </div>
     );
 }
