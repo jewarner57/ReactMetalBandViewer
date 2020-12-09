@@ -1,4 +1,4 @@
-import data from './metal.json'
+import data from '../metal.json'
 import './BandsInfo.css'
 
 function BandsInfo() {

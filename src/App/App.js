@@ -1,6 +1,6 @@
 import './App.css';
-import Heading from './Heading'
-import BandsInfo from './BandsInfo'
+import Heading from '../Heading/Heading'
+import BandsInfo from '../BandsInfo/BandsInfo'
 
 function App() {
     return (
