@@ -1,5 +1,5 @@
 import './Band.css'
-import './Band.css'
+import Like from '../Like/Like'
 
 function Band(props) {
     return (
@@ -10,6 +10,7 @@ function Band(props) {
             <p>{props.origin}</p>
             <p>Fans: {props.fans}</p>
 
+            <Like></Like>
         </div>
     );
 }
