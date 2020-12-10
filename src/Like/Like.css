@@ -1,4 +1,13 @@
 .Like {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.thumbUp, .thumbDown {
+    padding: 20px;
+    font-size: 30px;
+    user-select: none;
 }

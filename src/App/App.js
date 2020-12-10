@@ -19,8 +19,10 @@ function App() {
         <div className="App">
             <Heading></Heading>
             <BandsInfo data={data} ></BandsInfo>
-            <div>
-                {bands}
+            <div className="AppBody">
+                <div className="BandList">
+                    {bands}
+                </div>
             </div>
         </div >
     );

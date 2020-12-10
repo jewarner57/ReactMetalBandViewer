@@ -7,9 +7,9 @@ function Like(props) {
 
     return (
         <div className="Like">
-            <div onClick={() => { if (count > 0) { setCount(count - 1) } }}>👎</div>
+            <div onClick={() => { if (count > 0) { setCount(count - 1) } }} className="thumbUp">👎</div>
             <h1>{count}</h1>
-            <div onClick={() => setCount(count + 1)}>👍</div>
+            <div onClick={() => setCount(count + 1)} className="thumbDown">👍</div>
         </div>
     );
 }

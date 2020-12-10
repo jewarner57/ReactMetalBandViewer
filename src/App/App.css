@@ -1,0 +1,12 @@
+.BandList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1405px;
+}
+
+.AppBody {
+    display: flex;
+    justify-content: center;
+}
