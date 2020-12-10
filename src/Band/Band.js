@@ -10,7 +10,7 @@ function Band(props) {
                     <p>Formed: {props.formed}</p>
                     <p>Split: {props.split}</p>
                     <p>Origin: {props.origin}</p>
-                    <p>Fans: {props.fans}</p>
+                    <p>Fans: {(props.fans * 1000).toLocaleString('en')}</p>
                 </div>
                 {props.split === '-' &&
                     <Like></Like>
