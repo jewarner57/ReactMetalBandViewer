@@ -7,10 +7,12 @@ function Band(props) {
             <h1>{props.band_name}</h1>
             <p>Formed: {props.formed}</p>
             <p>Split: {props.split}</p>
-            <p>{props.origin}</p>
+            <p>Origin: {props.origin}</p>
             <p>Fans: {props.fans}</p>
 
-            <Like></Like>
+            {props.split !== '-' &&
+                <Like></Like>
+            }
         </div>
     );
 }
