@@ -2,7 +2,7 @@ import './App.css';
 import Heading from '../Heading/Heading'
 import Band from '../Band/Band'
 import data from '../metal.json'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 function App() {
 
@@ -26,13 +26,23 @@ function App() {
         )
     })
 
+    let [metalFans, changeMetalFans] = useState("")
+
+    useEffect(() => {
+        let fan_count = 0
+        for (let i = 0; i < data.length; i++) {
+            fan_count += data[i].fans
+        }
+        changeMetalFans((fan_count * 1000).toLocaleString('en'))
+    }, []);
+
     return (
         <div className="App">
             <Heading></Heading>
             <div className="BandsInfo">
                 <div>
-                    <h1>Metal Bands 🤘</h1>
-                    <h1>Bands: {data.length}</h1>
+                    <h1>{data.length} Metal Bands 🤘</h1>
+                    <h1>{metalFans} Metal Fans</h1>
                 </div>
                 <div className="bandSearch">
                     <h1>Search:</h1>
