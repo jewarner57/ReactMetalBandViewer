@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReactMetalBandViewer/static/css/main.93cb46c9.chunk.css",
+    "main.js": "/ReactMetalBandViewer/static/js/main.7b8948dc.chunk.js",
+    "main.js.map": "/ReactMetalBandViewer/static/js/main.7b8948dc.chunk.js.map",
+    "runtime-main.js": "/ReactMetalBandViewer/static/js/runtime-main.8391686b.js",
+    "runtime-main.js.map": "/ReactMetalBandViewer/static/js/runtime-main.8391686b.js.map",
+    "static/js/2.0dbcda84.chunk.js": "/ReactMetalBandViewer/static/js/2.0dbcda84.chunk.js",
+    "static/js/2.0dbcda84.chunk.js.map": "/ReactMetalBandViewer/static/js/2.0dbcda84.chunk.js.map",
+    "static/js/3.a75f27c9.chunk.js": "/ReactMetalBandViewer/static/js/3.a75f27c9.chunk.js",
+    "static/js/3.a75f27c9.chunk.js.map": "/ReactMetalBandViewer/static/js/3.a75f27c9.chunk.js.map",
+    "index.html": "/ReactMetalBandViewer/index.html",
+    "static/css/main.93cb46c9.chunk.css.map": "/ReactMetalBandViewer/static/css/main.93cb46c9.chunk.css.map",
+    "static/js/2.0dbcda84.chunk.js.LICENSE.txt": "/ReactMetalBandViewer/static/js/2.0dbcda84.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8391686b.js",
+    "static/js/2.0dbcda84.chunk.js",
+    "static/css/main.93cb46c9.chunk.css",
+    "static/js/main.7b8948dc.chunk.js"
+  ]
+}
